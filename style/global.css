@@ -1,0 +1,25 @@
+:root{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+--blue-100: #080815;
+--blue-200: #0E0F25;
+--blue-300: #141534;
+--blue-400: #1F2151;
+--blue-500: #2F3279;
+--blu-600:#2F34AB;
+--blue-700: #4A5DCD;
+--blue-800: #7D8DEC;
+--blue-900: #B2B8DE;
+--white: #F1F2F6;
+--font-family:"Inter", serif;
+--font-family2:"IBM Plex Mono", serif;
+
+--h1:700 2rem/48px var(--font-family);
+--button: 500 1rem/20px var(--font-family);
+--body: 500 1rem/20px var(--font-family);
+--label: 500 0.75rem/16px var(--font-family);
+--span: 500 1rem/20px var(--font-family);
+
+}
