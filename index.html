@@ -27,10 +27,13 @@
   <div class="contender">
     <form >
       <fieldset>
-        <label for="valor">VALOR</label>
-        <input type="text" id="valor" name="valor" placeholder="Digite o valor">
+        <div class="input-info">
+          <label for="valor">VALOR</label>
+         <input type="text" id="valor" name="valor" placeholder="0,00"> 
+        </div>
+      <div class="input-info">
         <label for="seletor-moeda">Moeda</label>
-        <select name="moeda" id="seletor-moeda">
+        <select name="moeda" id="seletor-moeda"> 
           <option value="">Selecione a moeda</option>
           <option value="USD">Dólar Americano</option>
           <option value="EUR">Euro</option>
@@ -38,10 +41,16 @@
           <option value="ARS">Peso argentino</option>
           <option value="CNY">Yuan chinês</option>
         </select>
+      </div>
       </fieldset>
       <button type="submit">Converter em reais</button>
+     
     </form>
   </div>
+   <div class="result">
+        <p>US$ 1 = R$ 4,86</p>
+        <p>486,00 Reais</p>
+      </div>
 
 </body>
 

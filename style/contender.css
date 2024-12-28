@@ -1,0 +1,86 @@
+.contender{
+  width: 480px;
+  height: 384px;
+  background-color: var(--blue-500);
+  padding-bottom: 56px;
+  margin: 0 auto;
+  border-radius: 24px 24px 0px 0px;
+  
+  
+  fieldset{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding-block:56px;
+    padding-inline: 64px;
+    gap: 20px;
+    .input-info{
+
+      display: flex;
+      flex-direction: column;
+      height: 76px;
+      label{
+        height: 24px;
+        font: var(--label);
+        color: var(--blue-900);
+        opacity: 100%;
+      }
+      input, select{
+        height: 52px;
+        border-radius: 8px;
+        border: 0;
+        background-color: var(--blue-200);
+        color: white;
+        
+        
+        padding-left: 10px;
+        font: var(--body);
+      }
+      
+      select:focus{
+        background-color: var(--blue-400);
+      }
+      
+    }
+  }
+  button{
+    
+    display: block;
+    margin: 0 auto;
+    width: 356px;
+    height: 52px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #2F34AB;
+    color: var(--white);
+    font: var(--button);
+    cursor: pointer;
+    &:hover{
+      background-color: var(--blue-700);
+    }
+  }
+  
+}
+.result{
+  margin: 0 auto;
+    width: 480px;
+    height: 156px;
+    background-color: rgba(31, 33, 81, 0.582);
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 0px 0px 24px 24px;
+    margin-bottom: 50px;
+    p{
+      margin-top: 20px;
+      color: var(--white);
+    }
+    p:nth-child(1){
+      font: var(--span);
+      color: var(--blue-900);
+
+    }
+    p:nth-child(2){
+      font: var(--h1);
+      color: var(--white);
+    }
+  }

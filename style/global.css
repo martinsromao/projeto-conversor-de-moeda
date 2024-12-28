@@ -7,7 +7,7 @@
 --blue-200: #0E0F25;
 --blue-300: #141534;
 --blue-400: #1F2151;
---blue-500: #2F3279;
+--blue-500: rgba(47, 49, 121, 0.411);
 --blu-600:#2F34AB;
 --blue-700: #4A5DCD;
 --blue-800: #7D8DEC;
@@ -20,6 +20,15 @@
 --button: 500 1rem/20px var(--font-family);
 --body: 500 1rem/20px var(--font-family);
 --label: 500 0.75rem/16px var(--font-family);
---span: 500 1rem/20px var(--font-family);
+--span: 500 1rem/20px var(--font-family2);
 
+}
+body{
+  background-image: url(../assets/image/Background.png);
+  background-size: cover;
+  font: var(--body);
+
+  .result{
+    display: none;
+  }
 }
