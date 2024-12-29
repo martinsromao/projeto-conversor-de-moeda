@@ -62,10 +62,10 @@
   
 }
 .result{
-  margin: 0 auto;
+  margin: 38px auto;
     width: 480px;
     height: 156px;
-    background-color: rgba(31, 33, 81, 0.582);
+    background-color: rgb(31, 33, 81);
     text-align: center;
     padding-top: 50px;
     border-radius: 0px 0px 24px 24px;

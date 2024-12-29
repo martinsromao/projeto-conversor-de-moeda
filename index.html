@@ -29,12 +29,12 @@
       <fieldset>
         <div class="input-info">
           <label for="valor">VALOR</label>
-         <input type="text" id="valor" name="valor" placeholder="0,00"> 
+         <input type="text" id="valor" name="valor" placeholder="0,00" required> 
         </div>
       <div class="input-info">
         <label for="seletor-moeda">Moeda</label>
-        <select name="moeda" id="seletor-moeda"> 
-          <option value="">Selecione a moeda</option>
+        <select name="moeda" id="seletor-moeda" required> 
+          <option disabled selected hidden>Selecione a moeda</option>
           <option value="USD">Dólar Americano</option>
           <option value="EUR">Euro</option>
           <option value="JPY">Iene japonês</option>
@@ -43,14 +43,15 @@
         </select>
       </div>
       </fieldset>
-      <button type="submit">Converter em reais</button>
-     
+      <button type="submit">Converter em reais</button> 
     </form>
+    <footer class="result">
+        <p id="description">US$ 1 = R$ 4,86</p>
+        <p id="result-total">486,00 Reais</p>
+      </footer>
   </div>
-   <div class="result">
-        <p>US$ 1 = R$ 4,86</p>
-        <p>486,00 Reais</p>
-      </div>
+  
+   
 <script src="script.js"></script>
 </body>
 

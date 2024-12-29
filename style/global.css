@@ -31,4 +31,7 @@ body{
   .result{
     display: none;
   }
+  .result-footer{
+    display: block;
+  }
 }
